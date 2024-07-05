@@ -17,9 +17,7 @@ ifeq ($(call is-board-platform-in-list, crow blair pitti bengal neo parrot taro 
         kona trinket qcs605), true)
     $(warning "Default Codec2.0 Enabled")
     PRODUCT_PROPERTY_OVERRIDES += \
-        debug.stagefright.ccodec=4 \
         vendor.media.omx=0
 endif
 
 endif
-
